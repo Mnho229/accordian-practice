@@ -1,5 +1,9 @@
+import Layout from './components/Layout';
+
 export default () => {
   return (
-    <div>Hello, Next World!</div>
+    <Layout>
+      <div>Hello, Next World!</div>
+    </Layout>
   )
 }
