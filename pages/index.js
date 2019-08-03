@@ -3,7 +3,7 @@ import Layout from './components/Layout';
 export default () => {
   return (
     <Layout>
-      <div className="c-main">Welcome to a React Accordian Website!  Now with Hooks!</div>
+      <div className="c-main">Welcome to a React Accordion Website!  Now with Hooks!</div>
 
       {style()}
     </Layout>
