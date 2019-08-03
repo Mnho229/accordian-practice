@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Navbar from './Navbar';
 
 const Layout = (props) => (
@@ -9,7 +10,21 @@ const Layout = (props) => (
     <section className="c-main">
       {props.children}
     </section>
+    
+    {style()}
   </>
 )
+
+function style() {
+  return <style global="true" jsx="true">{`
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+    }
+  `}</style>
+}
 
 export default Layout;
