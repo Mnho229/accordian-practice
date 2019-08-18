@@ -6,7 +6,6 @@ const Navbar = (props) => {
       <ul className="c-nav">
         <li><Link href="/">Home</Link></li>
         <li><Link href="/accordions">Accordions</Link></li>
-        <li><Link href="/tutorial">Guts</Link></li>
       </ul>
 
       {style()}

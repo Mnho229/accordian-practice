@@ -6,7 +6,7 @@ const Accordions = (props) => {
   return (
     <Layout>
       <section className="l-container">
-        <Accordion />
+        <Accordion allowMultipleOpen="true" />
       </section>
 
       {style()}
